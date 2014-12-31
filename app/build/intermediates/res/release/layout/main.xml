@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|top"
+        android:text="@string/txt_content"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/webView">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_test"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/btnClose"
+        android:layout_alignBottom="@+id/btnClose"
+        android:layout_alignParentLeft="true">
+</Button>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnClose"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/txt_content"
+        android:layout_alignParentLeft="true">
+</Button>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible"
+        android:layout_alignBottom="@+id/btnSend"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSearch"
+        android:visibility="visible"
+        android:enabled="true"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+</Button>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSend"
+        android:layout_gravity="center_horizontal"
+        android:enabled="true"
+        android:clickable="true"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+
+</Button>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/txt_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_above="@+id/txt_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/button" />
+
+</RelativeLayout >
+<!-- From: file:/home/naper/AndroidStudioProjects/BluetoothDEMO/app/src/main/res/layout/main.xml -->

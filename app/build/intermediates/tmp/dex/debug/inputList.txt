@@ -1,0 +1,3 @@
+/home/naper/AndroidStudioProjects/BluetoothDEMO/app/build/intermediates/classes/debug
+/home/naper/AndroidStudioProjects/BluetoothDEMO/app/build/intermediates/pre-dexed/debug/btsdk-c4cd68cbdc74258796e47ecc7becb79c95b116a7.jar
+/home/naper/AndroidStudioProjects/BluetoothDEMO/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-7c95aae45a79e83c4687b1a3faaefd77458172df.jar

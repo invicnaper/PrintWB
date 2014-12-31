@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/naper/AndroidStudioProjects/BluetoothDEMO/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">PrintDemo</string>
+    <string name="btnClose">Close</string>
+    <string name="btnSearch">Connect  Bluetooth  Printer</string>
+    <string name="btnSend">Print</string>
+    <string name="btn_test">Print  Test  Page</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="menu_settings">set</string>
+    <string name="none_found">No devices found</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="strLang">en</string>
+    <string name="txt_content">""</string>
+    <!-- From: file:/home/naper/AndroidStudioProjects/BluetoothDEMO/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
