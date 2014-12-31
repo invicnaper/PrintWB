@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/naper/AndroidStudioProjects/BluetoothDEMO/app/libs/btsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f6b84f6fbcfbf895952b8e0c007ec5d0fce9bc9">
+        <dex dex="/home/naper/AndroidStudioProjects/BluetoothDEMO/app/build/intermediates/pre-dexed/debug/btsdk-c4cd68cbdc74258796e47ecc7becb79c95b116a7.jar" />
+    </item>
+    <item
+        jar="/home/naper/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/naper/AndroidStudioProjects/BluetoothDEMO/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-7c95aae45a79e83c4687b1a3faaefd77458172df.jar" />
+    </item>
+
+</items>
